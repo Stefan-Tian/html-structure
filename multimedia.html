@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia Elements Example</title>
+  </head>
+  <body>
+    <h1>Multimedia Elements in HTML</h1>
+
+    <h2>Images</h2>
+    <figure>
+      <img
+        src="assets/demo-image.jpeg"
+        alt="An example image"
+        width="300"
+        height="200"
+      />
+      <figcaption>An example image using the img tag</figcaption>
+    </figure>
+
+    <h2>Videos</h2>
+    <figure>
+      <video controls width="320" height="240">
+        <source src="assets/demo-video-1080.mp4" type="video/mp4" />
+        <source src="assets/demo-video-1080.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>An example video using the video tag</figcaption>
+    </figure>
+
+    <h2>Audio</h2>
+    <figure>
+      <audio controls>
+        <source src="assets/demo-audio.mp3" type="audio/mp3" />
+        <source src="assets/demo-audio.wav" type="audio/wav" />
+        Your browser does not support the audio tag.
+      </audio>
+      <figcaption>An example audio using the audio tag</figcaption>
+    </figure>
+  </body>
+</html>
