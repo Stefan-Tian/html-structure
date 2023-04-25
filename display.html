@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline vs Block Elements</title>
+    <style>
+      .example-container {
+        border: 1px solid #000;
+        padding: 1rem;
+        margin-bottom: 1rem;
+      }
+      .inline {
+        background-color: #f0e68c;
+        padding: 0.5rem;
+      }
+      .block {
+        background-color: #90ee90;
+        padding: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Inline vs Block Elements Example</h1>
+
+    <div class="example-container">
+      <h2>Inline elements:</h2>
+      <span class="inline">I'm a span element!</span>
+      <a href="#" class="inline">I'm an anchor element!</a>
+      <strong class="inline">I'm a strong element!</strong>
+      <em class="inline">I'm an emphasized element!</em>
+      <img
+        src="https://via.placeholder.com/50"
+        alt="Placeholder image"
+        class="inline"
+      />
+    </div>
+
+    <div class="example-container">
+      <h2>Block elements:</h2>
+      <div class="block">I'm a div element!</div>
+      <p class="block">I'm a paragraph element!</p>
+      <ul class="block">
+        <li>I'm an unordered list element!</li>
+        <li>My list items are block elements too!</li>
+      </ul>
+      <ol class="block">
+        <li>I'm an ordered list element!</li>
+        <li>My list items are also block elements!</li>
+      </ol>
+    </div>
+  </body>
+</html>
